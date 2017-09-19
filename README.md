@@ -1,5 +1,2 @@
-# Javascript30Projects
-Projects from Javascript30.com Tutorial
-
-
-Press keys A through L to play different drum sounds
+# Javascript30Projects 
+Daily Projects from the Javascript30.com Tutorial
