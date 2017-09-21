@@ -1,0 +1,79 @@
+html {
+  font-size: 12px;
+  font-family: Verdana;
+  text-align: center;
+  background: url(http://www.lauriecampos.com/source/gradient-background-1920x1080.jpg);
+  background-size: cover;
+}
+
+body {
+  font-size: 2.5rem;
+  display: flex;
+  flex: 1;
+  margin: 0;
+  min-height: 150vh;
+  align-items: center;
+}
+
+.clock {
+  width: 35rem;
+  height: 35rem;
+  border: 25px solid black;
+  border-radius: 50%;
+  position: relative;
+  margin: 60px auto;
+  padding: 3rem;
+  box-shadow:
+    0 0 0 4px rgba(0,0,0,0.1),
+    inset 0 0 0 3px #EFEFEF,
+    inset 0 0 10px black,
+    0 0 10px rgba(0,0,0,0.2);
+}
+
+.clock-face {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform: translateY(-3px);
+}
+
+.hand {
+  width: 55%;
+  height: 4px;
+  background: #e6e6e6;
+  top: 50%;
+  right: 50%;
+  position: absolute;
+  transform-origin: 100%;
+  transform: rotate(90deg);
+  transition: all 0.05s;
+  transition-timing-function: ease-in-out;
+  border-radius: 25px;
+  opacity: 0.9;
+}
+
+.middle-circle {
+  background: black;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  top: 49%;
+  position: absolute;
+  right: 48%;
+
+}
+
+.minute-hand {
+  opacity: 0.7;
+  background: #b4b4b1;
+  height: 6px;
+  width: 50%;
+}
+
+.hour-hand {
+  opacity: 0.8;
+  background: #272725;
+  height: 10px;
+  width: 30%;
+  right: 50%;
+}
